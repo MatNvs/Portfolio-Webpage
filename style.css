@@ -1,0 +1,66 @@
+/* First I'll be making my classes */
+
+/* these first two are for the background colors */
+.dark-container {
+  background-color: #034748;
+  color: #CFEBDF;
+}
+
+.light-container {
+  background-color: #CFEBDF;
+  color: black;
+}
+
+/* This is to center and shape my photo*/
+.photo-wrap-center {
+  width: 50%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*This is to add padding to the main part of index.html */
+.page-container {
+  padding: 200px;
+}
+
+/* This is to customize the look of my contact links*/
+.link-btn {
+  color: black;
+  font-family: monospace;
+  font-weight: 1000;
+}
+
+/*Added padding to the footer so it was more proportional to the webpage */
+.footer {
+  padding: 10px
+}
+
+/* Added padding to the header for proportions as well*/
+.header {
+  padding: 20px;
+}
+
+/* Next I'll be writing my selectors and properties for them */
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 50px
+}
+
+h2 {
+  font-family: monospace, cursive, fantasy;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: monospace, cursive, fantasy;
+}
+
+p, li {
+  font-size: 20px;
+}
